@@ -37,7 +37,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #DF5DDF;
+  color: #EC407A;
 }
 h1,
 h2,
@@ -53,7 +53,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #3b5998;
+  background-color: #00897b;
 }
 .bg-white {
   background-color: #fff;
@@ -80,7 +80,7 @@ section {
     background-color: #fff;
 }
 #contact{
-    background-color: #3b5998;
+    background-color: #00897b;
     margin-bottom: 350px;
     min-height: 300px;
 }
@@ -212,12 +212,12 @@ aside {
   font-size: 30px;
 }
 .shadow-box-highlight{
-  background-color: rgba(59, 89, 152, .8);
+  background-color: rgba(97,97,97, .6);
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .light-shadow-box-highlight{
-  background-color: rgba(59, 89, 152, .3);
+  background-color: rgba(97,97,97, .3);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -225,7 +225,7 @@ aside {
   margin: 30px auto;
 }
 .deposit-hr-navy{
-border-top: 3px solid #3b5998 !important;
+border-top: 3px solid #00897b !important;
 margin-left: auto !important;;
 margin-right: auto !important;;
 
@@ -397,8 +397,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary, .btn-primary:visited {
   color: white;
-  background-color: #55C9B2;
-  /*border-color: #3b5998;*/
+  background-color: #00897b;
+  border-color: #000;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -410,7 +410,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white !important;
-  background-color: #DF5DDF;
+  background-color: #EC407A;
   /*padding: 15px 30px;*/
 }
 .btn-primary:active,
@@ -499,7 +499,7 @@ h2.how-it-works {
   }
 .highlight{
   font-weight: bold;
-  color: #3b5998;
+  color: #00897b;
   }
 
 .pricing-container{
@@ -514,7 +514,7 @@ h2.how-it-works {
 }
 .pricing-table{
   padding: 5px 5px 5px 5px;
-  border: 1px solid #3b5998;
+  border: 1px solid #00897b;
   margin-bottom: 5px;
 }
 .pricing-table tbody tr td, .pricing-table thead tr th {
@@ -556,21 +556,21 @@ h2.how-it-works {
 }
 .price-header{
   color: white;
-  background-color: #3b5998;
+  background-color: #00897b;
 }
 .price-header h1{
   margin-top:2px;
   margin-bottom: 2px;
 }
 .full-form-focus{
-  border: 1px solid #3b5998;;
+  border: 1px solid #00897b;;
 }
 .control-label{
   font-weight: bold;
 }
 .logo-left, .logo-right{
   max-height: 100px;
-  /*border: 1px solid #3b5998;*/
+  /*border: 1px solid #00897b;*/
 }
 @media (min-width:768px) {
   .vertical-middle{
@@ -628,14 +628,14 @@ h2 {
   font-size: 0.7em;
 }
 .contact-link{
-  color: #3b5998;
+  color: #00897b;
   text-decoration: underline;
 }
 .internal-link{
   text-decoration: underline;
 }
 .nav-email-noaction:hover, .nav-email-noaction:visited{
-  background: #3b5998 !important;
+  background: #00897b !important;
   color: #DADADA;
 }
 .blog-container{
@@ -677,11 +677,11 @@ h2 {
     text-decoration: underline;
 }
 .navy-link {
-    color: #3b5998;
+    color: #00897b;
     text-decoration: underline;
 }
 .navy-bold-link {
-    color: #3b5998;
+    color: #00897b;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -704,7 +704,7 @@ position: relative;
 display: block;
 }
 .solid-box-highlight{
-  background-color: rgba(59, 89, 152, 1);
+  background-color: rgba(97,97,97, 1);
 }
 .twitter-embed twitterwidget{
   position: relative;
@@ -861,10 +861,10 @@ text-align: center;
   max-height: 400px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 1px solid #3b5998;
+  border: 1px solid #00897b;
 }
 .navy-border{
-    border: 1px solid #3b5998;
+    border: 1px solid #00897b;
 }
 
 .blog-bg{
@@ -916,14 +916,14 @@ text-align: center;
 }
 .sledding-map{
   width: 300px;
-  border: 1px solid #3b5998;
+  border: 1px solid #00897b;
   padding-left: 10px;
   padding-right: 10px;
   float: right;
 }
 .uber-lyft-logo,{
   width: 400px;
-  border: 1px solid #3b5998;
+  border: 1px solid #00897b;
   padding-left: 10px;
   padding-right: 10px;
   float: right;
@@ -949,7 +949,7 @@ text-align: center;
 .jump-below{
   font-size: 0.7em;
   font-style: italic;
-  color: #3b5998;
+  color: #00897b;
 }
 .driving-times{
   font-size: 0.9em;
@@ -1078,18 +1078,20 @@ section.pricing-new-lesson{
   margin-right: auto;
   max-width: 90% !important;
 }
-.btn-secondary{
-  color: white !important;
-  background-color: #DF5DDF;
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
 .btn-primary{
   margin-top: 4px;
   margin-bottom: 4px;  
 }
+.btn-secondary{
+  color: white !important;
+  background-color: #EC407A;
+  border: 1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 .btn-secondary:hover{
-  background-color: #55C9B2;
+  background-color: #293133;
+  color: #00897b;
 }
 .blog-container{
   max-width: 1100px;
@@ -1309,7 +1311,7 @@ width:100%;
     display: block;
 }
 .guide-intro{
-    background-color: #3b5998;
+    background-color: #00897b;
 }
 .beginner-intro-questions{
   text-align: left;

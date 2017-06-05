@@ -7,14 +7,14 @@ default: &default
 
 development:
   <<: *default
-  database: snowschoolers_development
+  database: growth_marketing_partners_development
 
 test:
   <<: *default
-  database: snowschoolers_test
+  database: growth_marketing_partners_test
 
 production:
   <<: *default
-  database: snowschoolers_development
+  database: growth_marketing_partners_development
   # username: snowschoolers
   # password: bb4ss109
