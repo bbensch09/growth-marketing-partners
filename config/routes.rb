@@ -75,7 +75,7 @@ Rails.application.routes.draw do
   #landing page for prospective instructors
   get 'apply' => 'welcome#apply'
   get 'index' => 'welcome#index'
-  get 'about_us' => 'welcome#about_us'
+  get 'about-us' => 'welcome#about_us'
   get 'launch_announcement' => 'welcome#launch_announcement'
   get 'privacy' => 'welcome#privacy'
   get 'terms_of_service' => 'welcome#terms_of_service'
