@@ -17,11 +17,11 @@
 }
 
 #header, #footer {
-  background: #3b5998;
+  background: #00897b;
   border-bottom: rgba(255, 255, 255, 0.2) 1px solid;
 }
 .header-homewood, #footer {
-  background: #073765 !important;
+  background: #000 !important;
   border-bottom: rgba(255, 255, 255, 0.2) 1px solid;
 }
 
@@ -41,13 +41,13 @@ div.maximage-controls #slider_prev:hover {
 }
 
 #header ul.nav li a.sign-up-btn {
-  color: #fff;
-  background-color: #55C9B2;
-  border-radius: 4px;
+    color: black;
+    background-color: #fff;
+    border-radius: 4px;
 }
 
 #header ul.nav li a.sign-up-btn:hover {
-  background-color: #DF5DDF;
+  background-color: #EC407A;
   color: #fff;
 }
 
@@ -58,7 +58,7 @@ div.maximage-controls #slider_prev:hover {
 
 .sign-up-btn:hover {
   color: #fff;
-  background-color: #DF5DDF;
+  background-color: #EC407A;
 }
 
 .btn-info:hover {
@@ -170,7 +170,7 @@ div.maximage-controls #slider_prev:hover {
 }
 
 #middle .facebook-box .facebook-login:hover {
-  background: #3B5998;
+  background: #00897b;
   text-decoration: none;
 }
 

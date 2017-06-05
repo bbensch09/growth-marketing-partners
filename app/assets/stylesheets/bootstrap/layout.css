@@ -733,7 +733,7 @@ div.e404 {
 	}
 
 	h4.modal-title{
-		color:#3b5998 !important;
+		color:#00897b !important;
 		padding: 10px;
 		font-weight:300;
 	}
@@ -746,7 +746,7 @@ div.e404 {
 	.modal .modal-header button {
 		font-size:40px;
 		padding:8px;
-		color:#3b5998 !important;
+		color:#00897b !important;
 		margin-right:8px;
 		font-weight:300;
 	}
@@ -755,7 +755,7 @@ div.e404 {
 	}
 
 	.modal .modal-dialog {
-		border:#3b5998 2px solid;
+		border:#00897b 2px solid;
 	}
 	.modal .modal-content {
 		border:0; padding:0;
