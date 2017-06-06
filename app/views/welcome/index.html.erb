@@ -71,6 +71,27 @@
           </div>
       </div>
   </section>
+
+  <section class="bg-primary">
+      <div class="container">
+        <h1 class="center">News that Matters</h1>
+        <% @articles.each do |article| %>
+        <div class="col-md-3">
+            <h3>
+                <%= link_to article.title, article.url, class: "article-link text-white" %>                
+            </h3>
+            <p class="snippet text-white">
+                <%= article.snippet %>
+            </p>
+        </div>
+        <% end %>
+      </div>
+  </section>
+  <section class="bg-white">
+      <div class="container">
+        <h1 class="center">Our Clients</h1>
+      </div>
+  </section>
   
     <!-- %= render partial: 'prices' %> -->
     <section class="bg-primary" id="about">
