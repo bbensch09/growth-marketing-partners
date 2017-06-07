@@ -16,7 +16,8 @@ Rails.application.configure do
 
   #force SSL on all pages when not run locally
   unless ENV['HOST_DOMAIN'] == "localhost:3000"
-    config.force_ssl = true
+    config.force_ssl = false
+    # config.force_ssl = true
   end
 
   # Eager load code on boot. This eager loads most of Rails and
