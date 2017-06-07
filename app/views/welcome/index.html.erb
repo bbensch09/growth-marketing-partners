@@ -71,6 +71,27 @@
           </div>
       </div>
   </section>
+
+  <section class="bg-primary">
+      <div class="container">
+        <h1 class="center">News that Matters</h1>
+        <% @articles.each do |article| %>
+        <div class="col-md-3">
+            <h3>
+                <%= link_to article.title, article.url, class: "article-link text-white" %>                
+            </h3>
+            <p class="snippet text-white">
+                <%= article.snippet %>
+            </p>
+        </div>
+        <% end %>
+      </div>
+  </section>
+  <section class="bg-white">
+      <div class="container">
+        <h1 class="center">Our Clients</h1>
+      </div>
+  </section>
   
     <!-- %= render partial: 'prices' %> -->
     <section class="bg-primary" id="about">
@@ -122,72 +143,6 @@
             </div>
         </div>
     </section>
+    
 
-    <!-- <section id="how-it-works">
-        <div class="container">
-            <div class="row how-it-works">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading how-it-works navy-text">How SnowSchoolers Works</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3 class="navy-text">Request a Lesson</h3>
-                        <img src="assets/book-lesson.png" alt="book-lesson" class="how-it-works-images">
-                        <p class="navy-text">Get started by selecting your sport, mountain, date, and time of lesson.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3 class="navy-text">Lesson Confirmation</h3>
-                        <img src="assets/accept-request.png" alt="accept-request" class="how-it-works-images">
-                        <p class="navy-text">When your reservation is booked, our automated system begins reaching out our instructors to determine the best available instructor. 80% of instructor assignments are confirmed within 30 minutes.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3 class="navy-text">Learn from a Pro</h3>
-                        <img src="assets/bearvalley-snowbomb.png" alt="snowboarder" class="how-it-works-images">
-                        <p class="navy-text">Prior to your lesson, your instructor will contact you to confirm the meeting location and time. </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3 class="navy-text">Share the Love</h3>
-                        <img src="assets/review-instructor.png" alt="accept-request" class="how-it-works-images">
-                        <p class="navy-text">After your lesson, you'll receive feedback from your instructor about your progress, and we also ask that you rate the quality of your lesson experience.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12">
-          <hr class="deposit-hr-navy">
-        </div>
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2 class="navy-text shadow-box-highlight center">Sign up for free and book your first lesson today!</h2>
-                   <a href="/lessons/new" class="btn btn-primary btn-xl page-scroll">Get Started</a>
-            </div>
-        </div>
-    </section>
-<section class="bg-primary" id="blog">
-    <div class="row blog-promo-container">
-        <h2 class="center white-text">Hungry for more info?</h2>
-        <h2 class="center">
-            Check out the latest from our <a href="/blog/latest" class="green-link">blog!</a>
-        </h2>
-        <hr class="hr-white">
-    </div>
-
-    <div class="col-md-12">
-        <h3 class="center">
-            <a href="lessons/new" class="btn btn-primary btn-xl page-scroll powder-btn">Book a Lesson Today</a>
-        </h3>
-    </div>
-
-</section> -->
-
-<script src="//load.sumome.com/" data-sumo-site-id="a1fbda8d7365cdee08d4a5985659bb680581b2dd4281ce27f0f246ffaa655693" async="async"></script>
+<script src="//load.sumome.com/" data-sumo-site-id="09ec8023d4f0b2a121da1c51624191fd073e40be2bacc048cde6820d68d713cc" async="async"></script>

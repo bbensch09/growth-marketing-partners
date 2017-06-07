@@ -1,6 +1,5 @@
 
 class WelcomeController < ApplicationController
-    skip_before_action :authenticate_user!
     before_action :confirm_admin_permissions, only: [:admin_users,:admin_edit, :admin_destroy]
     before_action :set_user, only: [:admin_edit, :admin_show_user, :admin_update_user, :admin_destroy]
     protect_from_forgery :except => [:sumo_success]
@@ -32,8 +31,7 @@ class WelcomeController < ApplicationController
   end
 
   def index
-    # @lesson = Lesson.new
-    # @lesson_time = @lesson.lesson_time
+    @articles = Article.last(4)
   end
 
   def sumo_success
