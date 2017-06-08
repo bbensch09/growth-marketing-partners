@@ -1,6 +1,6 @@
 class BetaUsersController < ApplicationController
   before_action :set_beta_user, only: [:show, :edit, :update, :destroy]
-  skip_before_action :authenticate_user!, only: [:new, :create]
+  # skip_before_action :authenticate_user!, only: [:new, :create]
 
 
   # GET /beta_users
@@ -56,7 +56,7 @@ class BetaUsersController < ApplicationController
           format.json { render action: 'show', status: :created, location: @beta_user }
           else
           LessonMailer.notify_admin_beta_user(@beta_user).deliver
-          format.html { redirect_to root_path, notice: 'Thanks for signing up!' }
+          format.html { redirect_to root_path, notice: 'Thanks for reaching out. You can expect to hear from us within 24 hours!' }
           format.json { render action: 'show', status: :created, location: @beta_user }
         end
       else
@@ -98,6 +98,6 @@ class BetaUsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def beta_user_params
-      params.require(:beta_user).permit(:email, :user_type, :phone_number)
+      params.require(:beta_user).permit(:email, :user_type, :phone_number, :first_name, :last_name, :company, :comments, :service_category, :audit_request, :company_category)
     end
 end
