@@ -684,9 +684,13 @@ h2 {
     font-weight: bold;
     text-decoration: underline;
 }
-.black-link{
-  color: #000;
+.white-link{
+  color: #fff;
   font-weight: bold;
+  text-decoration: underline;
+}
+.white-link:hover{
+  color: #EC407A;
 }
 #why-snowschoolers{
   padding-bottom: 10px;
@@ -1529,7 +1533,7 @@ ul.recruiting-ctas li {
     color: #fff !important;
 }
 .services-blurb {
-    height: 140px;
+    min-height: 140px;
 }
 #header ul.nav li a.sign-up-btn {
     color: #fff;
@@ -1571,5 +1575,13 @@ img.proscan{
     max-width: 100% !important;
     margin-bottom: 10px;
 }
-
+.container .col-md-8{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.about-name{
+  margin-bottom:20px;
+  line-height: 24px;
+  text-align: center;
+}
 }
