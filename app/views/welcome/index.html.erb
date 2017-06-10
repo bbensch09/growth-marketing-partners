@@ -194,17 +194,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-xs12 text-center">
-                    <h2 class="section-heading white-text">Running a business is hard. <br> You don't need to grow it alone.</h2>
+                    <h2 class="center white-text">
+                      Value-based Pricing
+                    </h2>
+                    <p class="white-text">
+                      Traditional agencies charge a fixed (~10%) percent of ad spend, or have monthly retainers in excess of $15,000. We know what it's like to be an early stage startup or small business, and so our pricing is customized for every client and based purely on the value delivered.
+                    </p>
+                    <hr class="light text-center">
+                    <h2 class="section-heading white-text">Building a business is hard. <br> You don't need to grow it alone.</h2>
                     <!-- <a href="/lessons/new" class="btn btn-primary btn-xl page-scroll">Book your lesson now</a> -->
                     <hr>
                     <h3 class="beta-sign-up-offer white-text" id="subscribe">
                          <!-- Not ready to book today? <br> We are always expanding to new resorts, and occasionally giving away free schwag to lucky customers. Enter your email below to subscribe for updates. -->
-                     Wnat to learn more? 
+                     Wnat to learn more or request a quote? 
                      <br>
                      Enter your information below to request your free 30-min consultation.
 
                     </h3>
-                    <hr class="light text-center">
                     <div class="col-md-12 beta_user-sign-up">
                         <%= form_for(@beta_user = BetaUser.new) do |f| %>
                           <% if @beta_user.errors.any? %>
