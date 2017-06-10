@@ -75,6 +75,7 @@ section {
   padding: 50px 0;
   display: block;
   min-height: 450px;
+  clear: both;
 }
 #how-it-works{
     background-color: #fff;
@@ -670,6 +671,10 @@ h2 {
     font-weight: bold;
     text-decoration: underline;
 }
+.black-link{
+  color: #000;
+  text-decoration: underline;
+}
 .navy-link {
     color: #00897b;
     text-decoration: underline;
@@ -1190,6 +1195,9 @@ section.pricing-new-lesson{
     margin-bottom: 5px;
     background-color: #fff;
 }
+.image-no-bg{
+  background-color: transparent;
+}
 .services-blurb{
   height: 190px;
 }
@@ -1199,8 +1207,12 @@ section.pricing-new-lesson{
   margin-top: auto;
 }
 .client-image{
-  max-height: 200px;
+  height: 200px;
   width: auto;
+  border: 1px solid #00897b;
+}
+.client-container{
+  width: 400px;
 }
 
 @media (min-width: 768px) {
@@ -1232,6 +1244,7 @@ section.pricing-new-lesson{
     padding-bottom: 20px;
     padding-left: 0px;
     min-height: 350px;
+    clear: both;
   }
   .price-comparison{
     max-width: 95vw;
@@ -1291,11 +1304,11 @@ section.pricing-new-lesson{
 max-width: 90vw;
 }
 #homeHeading{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .btn-xl {
   padding: 15px 30px;
-  font-size: 1.3em;
+  font-size: 0.8em;
   max-width: 100%;
 }
 .powder-title{
@@ -1504,6 +1517,59 @@ ul.recruiting-ctas li {
 .service-box h3{
   font-size: 1.5em;
   text-decoration: underline;
+}
+.services-section{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.services-section:hover{
+    z-index: 1;
+    transform: none;
+    background: #00897B!important;
+    color: #fff !important;
+}
+.services-blurb {
+    height: 140px;
+}
+#header ul.nav li a.sign-up-btn {
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 4px;
+}
+.new-relic{
+  height:50px;
+}
+#our-clients{
+  height:600px;
+}
+img.pandia{
+    height: 200px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+img.proscan{
+    height: 200px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+.client-tagline{
+  font-size: 1.1em;
+  max-width: 95%;
+}
+.pull-right, .pull-left{
+  float:none;
+}
+.client-container{
+  width:auto;
+  margin-bottom: 20px;
+}
+.logo{
+  font-size: 0.63em;
+}
+.beta-sign-up {
+    display: inline-block;
+    max-width: 100% !important;
+    margin-bottom: 10px;
 }
 
 }
