@@ -61,10 +61,10 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
-    domain: "snowschoolers.com",
+    domain: "growthmarketingventures.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "brian@snowschoolers.com",
+    user_name: "brian@growthmarketingventures.com",
     password: ENV["GMAIL_PASSWORD"]
   }
   #PAPERCLIP AWS S3 CONFIG
@@ -72,7 +72,7 @@ Rails.application.configure do
   :storage => :s3,
   :s3_region => ENV['AWS_REGION'],
   :s3_host_name => 's3.amazonaws.com',
-  :bucket => 'snowschoolers'
+  :bucket => 'growth-marketing-ventures'
   }
 
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
