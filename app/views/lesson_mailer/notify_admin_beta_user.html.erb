@@ -5,7 +5,14 @@
   </head>
   <body>
     <p>
-      A new user, <%= @beta_user.email %> has just signed up for updates.
+      A new user, <%= @beta_user.email %> has just submit the lead form. Their info is below:
     </p>
+    <ul>
+    	<li>First name: <%= @beta_user.first_name %> </li>
+    	<li>Last name: <%= @beta_user.last_name %> </li>
+    	<li>Phone: <%= @beta_user.phone_number %> </li>
+    	<li>Company: <%= @beta_user.company %> </li>
+    	<li>Message: <%= @beta_user.comments %> </li>
+    </ul>
   </body>
 </html>

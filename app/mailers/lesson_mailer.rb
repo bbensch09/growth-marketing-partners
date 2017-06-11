@@ -1,5 +1,5 @@
 class LessonMailer < ActionMailer::Base
-  default from: 'Growth Marketing Ventures <info@growthmarketingventures.com>', cc: 'info@growthmarketingventures.com'
+  default from: 'Growth Marketing Ventures <info@growthmarketingventures.com>', cc: 'growth.marketing.partners@gmail.com'
 
   def track_apply_visits(email="Unknown user")
       @email = email
