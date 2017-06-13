@@ -2,7 +2,8 @@
 
 # UNCOMMENT CODE BELOW TO RESTORE ACTION CABLE
 
-module ApplicationCable
-  class Connection < ActionCable::Connection::Base
-  end
-end
+# REMOVED ACTION CABLE JUN13
+# module ApplicationCable
+#   class Connection < ActionCable::Connection::Base
+#   end
+# end
