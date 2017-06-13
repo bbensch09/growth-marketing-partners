@@ -40,12 +40,17 @@
         ga('create', 'UA-100779573-1', 'auto');
         ga('require', 'GTM-55Q35WF');
         ga('send', 'pageview');
-
       </script>
 
-  <!-- Meta verification for Bing webmaster tools -->
+    <!-- Heap analytics snippet PRODUCTION ENV - GMV Project-->
+      <script type="text/javascript">
+          window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+            heap.load("4110719968");
+      </script>
+
 
   <% elsif ENV['HOST_DOMAIN'] == "localhost:3000" %>
+    <!-- GA LOCALHOST TRACKING -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -55,8 +60,13 @@
       ga('create', 'UA-100779573-3', 'auto');
       ga('require', 'GTM-55Q35WF');
       ga('send', 'pageview');
-
     </script>
+    <!-- HEAP DEVELOPMENT ENV - GMV Project -->
+      <script type="text/javascript">
+          window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+            heap.load("4060510145");
+      </script>
+
   
   <% elsif ENV['HOST_DOMAIN'] == "growth-marketing-ventures.herokuapp.com" %>
   <!-- GA code for Local Host tracking & QA -->
@@ -88,11 +98,6 @@
     /></noscript> -->
 <!-- End Facebook Pixel Code -->
 
-<!-- Heap analytics snippet -- Development account-->
-<script type="text/javascript">
-    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-      heap.load("654668111");
-</script>
 
 </head>
 <body>
