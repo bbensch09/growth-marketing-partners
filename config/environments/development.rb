@@ -12,6 +12,12 @@ Rails.application.configure do
   config.active_record.raise_in_transactional_callbacks = true
 
   config.cache_classes = false
+  
+  #force SSL on all pages when not run locally
+  unless ENV['HOST_DOMAIN'] == "localhost:3000"
+    # config.force_ssl = false
+    config.force_ssl = true
+  end
 
   # Do not eager load code on boot.
   config.eager_load = false
