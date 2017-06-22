@@ -1,6 +1,6 @@
 class ApplicantsController < ApplicationController
   before_action :set_applicant, only: [:show, :edit, :update, :destroy]
-  skip_before_action :authenticate_user!, only: [:new, :apply, :create, :thank_you, :browse, :show, :show_candidate]
+  # skip_before_action :authenticate_user!, only: [:new, :apply, :create, :thank_you, :browse, :show, :show_candidate]
   layout 'homewood'
 
   # GET /applicants

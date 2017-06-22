@@ -1,5 +1,5 @@
 class BlogsController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:show, :index]
+  # skip_before_action :authenticate_user!, only: [:show, :index]
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
 
   # GET /blogs
